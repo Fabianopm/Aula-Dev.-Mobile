@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity4"
+    tools:ignore="ExtraText">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/navy_blue"
+        android:elevation="4dp">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:src="@drawable/voltar">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/text3"
+            style="@android:style/Theme.DeviceDefault.NoActionBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/meupet"
+            android:layout_gravity="center"
+            android:textStyle="bold">
+
+        </TextView>
+
+    </android.support.v7.widget.Toolbar>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="181dp"
+        android:layout_height="206dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_margin="15dp"
+        android:src="@drawable/gato"
+        app:civ_border_width="2dp"
+        app:civ_circle_background_color="@color/rosa_pastel"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/text4"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:text="@string/snow"
+        android:textSize="15dp" />
+
+    <EditText
+        android:id="@+id/text5"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="49dp"
+        android:textSize="15dp"
+        android:text="Gato"/>
+
+    <EditText
+        android:id="@+id/text6"
+        android:layout_width="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_height="49dp"
+        android:textSize="15dp"
+        android:text="SRD"/>
+
+    <EditText
+        android:id="@+id/text7"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:textSize="15dp"
+        android:text="7.5 kg"/>
+
+    <EditText
+        android:id="@+id/text8"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:textSize="15dp"
+        android:text="Macho"/>
+
+    <EditText
+        android:id="@+id/text9"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="49dp"
+        android:textSize="15dp"
+        android:text="01/11/2021"/>
+
+    <TextView
+        android:id="@+id/cadastro_efetuado"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cadastro_efetuado_com_sucesso"
+        android:gravity="center"
+        android:layout_margin="30dp"/>
+
+
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PetShop2</string>
+    <string name="ent">ENTRAR</string>
+    <string name="ret1"></string>
+    <string name="senha">Senha</string>
+    <string name="hint2">Ainda não tem conta? Toque aqui</string>
+    <string name="pesq">Pesquisar</string>
+    <string name="service">Procurando serviços para qual animal?</string>
+    <string name="esqSenha">Esqueci a senha</string>
+    <string name="cadstropet">Nenhum pet cadastrado</string>
+    <string name="btn2">Toque aqui para cadastrar</string>
+    <string name="cadastrarpet2">Cadastrar pet</string>
+    <string name="Nomepet">Nome do pet: </string>
+    <string name="TipoPet">Tipo do pet: </string>
+    <string name="Raça">Raça: </string>
+    <string name="Peso">Peso (kg): </string>
+    <string name="Sexo">Sexo: </string>
+    <string name="dataNasc">Nascimento: </string>
+    <string name="btn3">CADASTRE</string>
+    <string name="adcFto">Adicionar foto</string>
+    <string name="meupet">Meu pet</string>
+    <string name="snow">Snow</string>
+    <string name="cadastro_efetuado_com_sucesso">Cadastro efetuado com sucesso!</string>
+</resources>
